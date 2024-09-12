@@ -1,0 +1,151 @@
+
+.sidebar{
+    border: 2px solid #a1a1a1;
+    display: flex;
+    flex-direction: column;
+    width: 20rem;
+    height: 97vh;
+    background-color: #F5F5F5;
+}
+
+
+/* titulo del proyecto */
+
+.project-title{
+    height: 3vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;   
+    font-weight: bolder;
+    color: #424242;
+    padding: 20px;
+    margin: 0px 0px 0px 0px;
+    border-bottom: 1px solid #c7c7c7;
+}
+
+
+/* Menu principal */
+
+  .menu ul {
+    list-style: none; 
+    padding: 1rem;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+
+
+  }
+  
+  .menu li {
+    padding: 1rem;
+    border-bottom: 1px solid #ccc;
+    transition: background-color 0.3s ease-in-out;
+  
+  }
+  
+  .menu li:hover {
+    background-color: #c7c7c7;
+    color: black;
+    border-radius: 2px;
+  }
+  
+  .menu li:hover a{
+    color: black
+  }
+  .menu a {
+    text-decoration: none; 
+    color: #424242;
+  }
+  
+  .menu a.active {
+    color: #424242;
+    background-color: #212121; 
+  }
+
+
+/* Menu extendible */
+
+.collapsible-menu {
+  background-color: #F5F5F5;
+  padding: 1rem;
+  border-radius: 0.5rem;
+}
+
+.collapsible-menu h3{
+  padding: 0.2rem;
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 12px;
+  border-bottom: 1px solid #c7c7c7;
+}
+
+.menu-item {
+  color: #333;
+  text-decoration: none;
+  display: block;
+  padding: 0.7rem;
+  border-bottom: 1px solid #ccc;
+  transition: background-color 0.3s ease-in-out;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+}
+
+.menu-item:hover {
+  background-color: #ccc;
+}
+
+.dropdown-menu {
+  display: none;
+  background-color: #fff;
+  padding: 1rem;
+  border: 1px solid #ccc;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  animation: fadeIn 0.5s ease-in-out;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+}
+
+.dropdown-menu.show {
+  display: block;
+}
+
+.dropdown-item {
+  color: #666;
+  text-decoration: none;
+  display: block;
+  padding: 0.5rem;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.dropdown-item:hover {
+  background-color: #f0f0f0;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.collapsible-menu ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.collapsible-menu li {
+  position: relative;
+}
+
+.dropdown-menu {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  z-index: 1;
+}

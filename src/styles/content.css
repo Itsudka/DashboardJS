@@ -1,0 +1,87 @@
+.content{
+    border: 2px solid #a1a1a1;
+    width: 100rem;
+    height: 97vh;
+    background-color: #F5F5F5;
+}
+
+.board-title h1{
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+.task-message{
+    display: flex;
+    flex: wrap;
+}
+
+.task-message h1{
+    text-align: center;
+    padding: 5px;
+    margin: 0;
+    font-size: 20px;
+    color: #424242;
+    background-color: #48CFCB;
+    
+}
+
+.message{
+    border: 2px solid #ccc;
+    width: 30rem;
+    height: 25rem;
+    margin: 0.5rem;
+}
+
+.task-section{
+    border: 2px solid #ccc ;
+    width: 70rem;
+    margin: 0.5rem;
+}
+
+.graphs{
+    display: flex;
+    flex: wrap;
+    justify-content: center;
+    
+}
+
+.graph{
+    width: 35vh;
+    border: 2px solid #ccc ;
+
+}
+
+.graph h1{
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: medium;
+}
+
+
+.btn-new-mess, .btn-new-task {
+    text-align: right;
+    margin-top: 2px; 
+}
+
+.btn-new-mess button, .btn-new-task button{
+   background-color: #399918;
+   color:#F5F5F5;
+   border: none;
+   padding: 10px;
+}
+
+.btn-new-mess span, .btn-new-task span{
+    font-weight: bolder;
+    color:#F5F5F5;
+    border: none;
+    font-size: 18px;
+}
+
+.n-title, .t-title{
+    margin: 0.5rem;
+    font-size: 18px;
+    color: #424242;
+}
+ 
+

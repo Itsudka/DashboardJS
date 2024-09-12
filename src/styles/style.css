@@ -1,0 +1,23 @@
+body{
+  background: rgb(245,245,245);
+  background: linear-gradient(90deg, rgba(245,245,245,1) 0%, rgba(72,207,203,1) 51%, rgba(34,151,153,1) 100%);
+  font-family: 'Montserrat', sans-serif;
+}
+
+.cont{
+  display: flex;
+  flex-direction: wrap;
+}
+
+/* colors: 
+
+F5F5F5
+48CFCB
+229799
+424242
+
+*/
+
+
+
+

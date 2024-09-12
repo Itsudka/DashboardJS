@@ -1,0 +1,67 @@
+/* Estilos Login */
+
+.login-tt{
+    font-family: 'Montserrat', sans-serif;
+    color: #424242;
+    margin: 3vh;
+    background-color: #F7EED3;
+    border: solid 1px  #424242;
+    width: 30vh;
+    text-align: center;
+    padding: 10px;
+  }
+  
+  
+  .login-card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 50vh;
+    height: 70vh;
+    border: 2px solid #424242;
+    background-image: url('/public/image1.jpg');
+    background-size: cover;
+    background-position: center;
+
+  }
+  
+  .card{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  .user, .password{
+    width: 30vh;
+    height: 3.4vh;
+    margin: 2px;
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+    border: solid 1px  #424242;
+  }
+  
+  .login-email, .login-password{
+    color: #424242;
+    background-color: #F7EED3;
+    width: 30vh;
+    text-align: center;
+    padding: 10px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    border: solid 1px  #424242;
+ 
+  }
+  
+  .login-btn{
+    background-color: #AAB396;
+    margin: 3vh;
+    width: 20vh;
+    height: 5.4vh;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+  }
+  
+  
